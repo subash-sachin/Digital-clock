@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    background-color: #23adff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.clock{
+    width: 530px;
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2.time{
+    font-size: 5rem;
+}
+p.date{
+    font-size: 1.5rem;
+}
